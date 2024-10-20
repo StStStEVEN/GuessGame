@@ -2,8 +2,9 @@
 
 int main()
 {
-	cout << "This is a guess game, you can only enter a number from 1 to 100." << endl;
-	cout << "Youu have 10 tries in total to guess the correct number." << endl;
+	cout << "This is a guess game, you need to guess a number from 1 to 100." << endl;
+	cout << "Remember you only have 10 tries to guess the correct answer." <<endl;
+	cout << "Hope you can beat this game!" << endl;
 	int guess;
 		for (int i = 9; i >= 0; i--)
 		{
